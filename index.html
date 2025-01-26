@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="icons">
+            <div id="stone" class="icon"><img src="images/stone.png" alt=""></div>
+            <div id="paper" class="icon"><img src="images/paper.png" alt=""></div>
+            <div id="scissors" class="icon"><img src="images/scissors.png" alt=""></div>
+        </div>
+        <div id="display-container">
+            <div id="top">
+                <div id="userscore"><h1> Your Score: <br><span id="us" class="s">0</span></h1></div>
+                <div id="computerscore"><h1>Computer Score: <br><span id="cs" class="s">0</span></h1></div>
+            </div>
+            <div id="middle">
+               
+                <div id="usermove" class="display">
+                    <img id="userimage" src="images/scissors.png" alt="">
+                </div>
+                <div id="vs"><img src="images/vsimage.jpg" alt=""></div>
+                <div id="computermove" class="display">
+                    <img id="compimage" src="images/stone.png" alt="">
+                </div>
+            </div>
+            <div id="bottom">
+                <h1 id="winner-txt">Play your move</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
